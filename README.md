@@ -1,7 +1,10 @@
 Gin & Tonics shopping list
 ==========================
 
-<img src=".github/screenshot.png">
+<img src=".github/screenshot.png" />
+
+
+A list of Gin & Tonics that taste pretty ok.
 
 
 ## Contributing
