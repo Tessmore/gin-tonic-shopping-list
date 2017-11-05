@@ -1,0 +1,645 @@
+{
+    "gin_tonics": [
+        {
+            "name" : "THE BOTANIST",
+            "pricing": 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "" ] // TODO Herbs Basil (?)
+                },
+
+                {
+                    "tonic": "Fentimans Tonic",
+                    "extra": [ "Cardamom" ]
+                }
+            ]
+        },
+
+        {
+            "name": "BULLDOG",
+            "pricing": 16,
+
+            "goes_with": [
+                {
+                    "tonic": "1724 Tonic",
+                    "extra": [ "Dragon Fruit" ]
+                }
+            ]
+        },
+
+
+        {
+            "name": "BOBBY'S DUTCH GIN",
+            "pricing": 16,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": ["Orange Slice", "Cloves" ]
+                }
+            ]
+        },
+
+
+        {
+            "name": "BROOKLYN",
+            "pricing": 19,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": ["Orange", "Rosemary"]
+                }
+            ]
+        },
+
+        {
+            "name": "CITADELLE RESERVE GIN",
+            "pricing": 18,
+
+            "goes_with": [
+                {
+                    "tonic": "1724 Tonic",
+                    "extra": ["Cinnamon Stick"]
+                }
+            ]
+        },
+
+        {
+            "name": "COPPERHEAD",
+            "pricing": 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Mediterranean Tonic",
+                    "extra": [ "Coriander", "Orange Slice" ]
+                }
+            ]
+        },
+
+        {
+            "name": "ELEPHANT GIN",
+            "pricing": 20,
+
+            "goes_with": [
+                {
+
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra" : [ "Ginger" ]
+                }
+            ]
+        },
+
+        {
+            "name": "EDGERTON PINK GIN",
+            "pricing": 21,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": ["Raspberries"]
+                }
+            ]
+        },
+
+        {
+            "name": "FIFTY POUNDS",
+            "pricing": 18,
+
+            "goes_with": [
+                {
+                    "tonic": "1724 Tonic",
+                    "extra": [ "Strawberries" ]
+                },
+
+                {
+                    "tonic": "Fentimans Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "GERANIUM DRY GIN",
+            "pricing": 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [],  //  TODO "Edible Flowers (?)"
+                }
+            ]
+        },
+
+        {
+            "name": "GIN'CA PERUVIAN GIN",
+            "pricing" : 22,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Fresh grapes" ]
+                }
+            ]
+        },
+
+        {
+            "name": "GIN MARE",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "1724 Tonic",
+                    "extra": [ "Basil", "Black pepper" ]
+                },
+
+                {
+                    "tonic": "Fever-Tree Mediterranean Tonic",
+                    "extra": [ "Basil", "Orange" ]
+                }
+            ]
+        },
+
+        {
+            "name": "GIN RAW GASTRONOMIC GIN",
+            "pricing" : 19,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Bay Leaf", "Lemon Zest"  ]
+                }
+            ]
+        },
+
+        {
+            "name": "HERNÖ SWEDISH DRY GIN",
+            "pricing" : 19,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Red currants", "Thyme" ]
+                }
+            ]
+        },
+
+        {
+            "name": "HENDRICKS'S",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Cucumber" ]
+                }
+            ]
+        },
+
+        {
+            "name": "HERMIT DUTCH GIN",
+            "pricing" : 17,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Mediterranean Tonic",
+                    "extra": [ "Grapefruit" ]
+                }
+            ]
+        },
+
+        {
+            "name": "ISLE OF HARRIS",
+            "pricing" : 20,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Grapefruit", "Samphire" ]
+                }
+            ]
+        },
+
+        {
+            "name": "JINZU GIN",
+            "pricing" : 20,
+
+            "goes_with": [
+                {
+                    "tonic": "1724 Tonic",
+                    "extra": [ "Kumquats" ]  // "Yuzu Sake" (erbij?)
+                }
+            ]
+        },
+
+        {
+            "name": "KING OF SOHO",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": " 1724 Tonic",
+                    "extra": [ "Apple", "Cinnamon" ]
+                }
+            ]
+        },
+
+        {
+            "name": "KOSKUE RYE GIN",
+            "pricing" : 19,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Green apple" ]
+                }
+            ]
+        },
+
+
+        {
+            "name": "LONDON NO.1",
+            "pricing" : 21,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Lemon Zest" ]
+                }
+            ]
+        },
+
+        {
+            "name": "LONDON NO.3",
+            "pricing" : 21,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Mint Spring" ]
+                }
+            ]
+        },
+
+        {
+            "name": "MONKEY 47",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Blackberries" ]
+                }
+            ]
+        },
+
+        {
+            "name": "NOLET'S SILVER GIN",
+            "pricing" : 23,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Passion Fruit" ]
+                }
+            ]
+        },
+
+        {
+            "name": "NAPUE RYE GIN",
+            "pricing" : 16,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Cranberries", "Rosemary" ]
+                }
+            ]
+        },
+
+        {
+            "name": "PORTOBELLO ROAD",
+            "pricing" : 16,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Lemon Verbena" ]
+                }
+            ]
+        },
+
+        {
+            "name": "SACRED ORRIS GIN",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Edible Orchid Flower" ]
+                }
+            ]
+        },
+
+        {
+            "name": "SIPSMITH DRY GIN",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Thomas Henry Tonic",
+                    "extra": [ "Blueberries" ]
+                }
+            ]
+        },
+
+
+        {
+            "name": "MOMBASSA CLUB GIN",
+            "pricing" : 16,
+
+            "goes_with": [
+                {
+                    "tonic": "Fentimans Tonic",
+                    "extra": [ "" ] // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "FILLIERS 28",
+            "pricing" : 17,
+
+            "goes_with": [
+                {
+                    "tonic": "Fentimans Tonic",
+                    "extra": [ "" ] // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "V2C DUTCH DRY GIN",
+            "pricing" : 17,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Juniper berries" ]
+                }
+            ]
+        },
+
+        {
+            "name": "SYLVIUS",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "1724 Tonic",
+                    "extra": [ "" ] // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "JUNIPERO",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "" ] // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "HAYMAN'S ROYAL DOCK GIN",
+            "pricing" : 12,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "No extra's" ]
+                }
+            ]
+        },
+
+        {
+            "name": "OPIHR",
+            "pricing" : 12,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Red pepper" ]
+                },
+
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Ginger", "Lemon grass" ]
+                }
+            ]
+        },
+
+        {
+            "name": "VL 92 GIN",
+            "pricing" : 14,
+
+            "goes_with": [
+                {
+                    "tonic": "Fentimans Tonic",
+                    "extra": [ "Koriander" ]
+                }
+            ]
+        },
+
+        {
+            "name": "MARTIN MILLER'S GIN",
+            "pricing" : 12,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Lemon" ]
+                }
+            ]
+        },
+
+        {
+            "name": "BLOOM",
+            "pricing" : 13,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Raspberry", "Lime" ]
+                },
+
+                {
+                    "tonic": "6 o'clock Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "THE BITTER TRUTH PINK GIN",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "6 o'clock Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "ISH",
+            "pricing" : 15,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "Vørding's Gin",
+            "pricing" : 19,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "JOHN TONY'S",
+            "pricing" : 15,
+
+            "goes_with": [
+                {
+                    "tonic": "Fentimans Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "LOOPUYT",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "DODD'S",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "GIN SUL",
+            "pricing" : 17,
+
+            "goes_with": [
+                {
+                    "tonic": "6 o'clock Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "DEATH'S DOOR",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fentimans Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "SPRING GIN (original)",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "GLORIOUS GIN",
+            "pricing" : 19,
+
+            "goes_with": [
+                {
+                    "tonic": "6 o'clock Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "UPPERCUT",
+            "pricing" : 20,
+
+            "goes_with": [
+                {
+                    "tonic": "East Imperial Burma Tonic",
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "FOREST SPRING",
+            "pricing" : 20,
+
+            "goes_with": [
+                {
+                    "tonic": "Erasmus Tonic",  // http://erasmus-bond.be/
+                    "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "PLYMOUTH",
+            "pricing" : 12,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Lime" ]
+                }
+            ]
+        }
+    ]
+}
