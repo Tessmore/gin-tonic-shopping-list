@@ -4,17 +4,32 @@ Gin & Tonics shopping list
 <img src=".github/screenshot.png" />
 
 
-A list of Gin & Tonics that taste pretty ok.
+* The [recipes.json](src/data/recipes.json5) file is a list of Gin & Tonics that should taste pretty ok. It's definitely a work in progress! Not all recipes get added unfortunately, so some suggestions without extra's/garnishes haven't been "properly" tested yet. Some day (probably soon), I will try something to make the drinks work, but suggestions are very welcome.
+
+* You should probably drink responsibly.
 
 
 ## Contributing
 
-This is a Vue.js project generated with `vue init webpack-simple`. To run it locally:
+Suggestions for both gin, tonic, and extra garnish are welcome :)
+
+
+If you want to run it yourself, it is a Vue.js project generated with `vue init webpack-simple`. So you can run it locally with:
 
 ``` bash
+// clone this project and ->
+
 npm install
 
 npm run dev
 ```
 
-If you feel something is missing, you can open an issue. Pull requests are welcome.
+If you feel anything is missing, you can open an issue with a suggestion or a link. Pull requests are welcome.
+
+
+## TODO-list
+
+* Include info about the glass? (balloon or long glass)
+* Actual recipe info (HOW TO MAKE SUPER THIN SLICES OF ...)
+* Some kind of biased recommendation rating
+

@@ -30,6 +30,11 @@
                 </ul>
             </div>
         </div>
+
+<!--         <div class="full">
+            <small>€€ is an estimate of the Gin (bottles between €22,00 - 45,00), Tonic (€2,-) and any extra's.</small>
+        </div>
+ -->
     </div>
 
     <div style="clear:both;"></div>
@@ -43,6 +48,11 @@ import deburr from "lodash.deburr"
 
 var priceTag = function(price) {
     var r = "";
+
+    if (price === "-" || price === "?") {
+      return "?"
+    }
+
 
     if (price < 14) {
         return "€";
@@ -86,6 +96,11 @@ export default {
                 // Create label for comparison
                 item.label = normalize(item.name);
 
+                // Include spelling mistakes / alternative spellings
+                if (item.alt_names) {
+                    item.label += " " + item.alt_names.map(s => normalize(s)).join(" ");
+                }
+
                 return item;
             })
         }
@@ -93,17 +108,17 @@ export default {
 
     computed: {
         filtered: function() {
+            var searchStr = normalize(this.filter||"");
+
             var items = this.items.filter((item) => {
                 if (!item.name) {
                     return false;
                 }
 
-                if (!this.filter || this.filter.length < 2) {
+                if (!searchStr || searchStr.length < 2) {
                     return true;
                 }
 
-
-                var searchStr = normalize(this.filter);
                 return item.label.includes(searchStr);
             });
 
@@ -115,8 +130,20 @@ export default {
 
 
             // Filter active (prefix match better)
-            if (this.filter && this.filter.length > 2) {
+            if (searchStr && searchStr.length > 1) {
+                var prefix = searchStr.slice(0, 3);
 
+                items = items.sort(function(a, b) {
+                    if (a.label && a.label.startsWith(prefix)) {
+                        return -1;
+                    }
+
+                    if (b.label && b.label.startsWith(prefix)) {
+                        return  1;
+                    }
+
+                    return 0;
+                });
             }
 
             return items;

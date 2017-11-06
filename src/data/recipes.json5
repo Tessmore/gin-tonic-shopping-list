@@ -32,6 +32,8 @@
 
         {
             "name": "BOBBY'S DUTCH GIN",
+            "alt_names": ["bobbies"],
+
             "pricing": 16,
 
             "goes_with": [
@@ -51,6 +53,18 @@
                 {
                     "tonic": "Fever-Tree Indian Tonic",
                     "extra": ["Orange", "Rosemary"]
+                }
+            ]
+        },
+
+        {
+            "name": "SLOANE'S",
+            "pricing": 12,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": ["Orange", "Cloves"]
                 }
             ]
         },
@@ -147,9 +161,16 @@
 
         {
             "name": "GIN MARE",
+            "alt_names": ["ginmare"],
+
             "pricing" : 18,
 
             "goes_with": [
+                {
+                    "tonic": "Fever-Tree Mediterranean Tonic",
+                    "extra": [ "Thyme" ]
+                },
+
                 {
                     "tonic": "1724 Tonic",
                     "extra": [ "Basil", "Black pepper" ]
@@ -188,6 +209,8 @@
 
         {
             "name": "HENDRICKS'S",
+            "alt_names": ["hendriks"],
+
             "pricing" : 18,
 
             "goes_with": [
@@ -228,6 +251,11 @@
 
             "goes_with": [
                 {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Lychee", "Apple" ]  // "Yuzu Sake" (erbij?)
+                },
+
+                {
                     "tonic": "1724 Tonic",
                     "extra": [ "Kumquats" ]  // "Yuzu Sake" (erbij?)
                 }
@@ -261,6 +289,8 @@
 
         {
             "name": "LONDON NO.1",
+            "alt_names": ["london 1", "london no1"],
+
             "pricing" : 21,
 
             "goes_with": [
@@ -273,6 +303,8 @@
 
         {
             "name": "LONDON NO.3",
+            "alt_names": ["london 3", "london no3"],
+
             "pricing" : 21,
 
             "goes_with": [
@@ -394,12 +426,14 @@
 
         {
             "name": "SYLVIUS",
+            "alt_names": ["silvius"],
+
             "pricing" : 18,
 
             "goes_with": [
                 {
                     "tonic": "1724 Tonic",
-                    "extra": [ "" ] // TODO
+                    "extra": [ "No extra's" ]
                 }
             ]
         },
@@ -430,6 +464,8 @@
 
         {
             "name": "OPIHR",
+            "alt_names": ["ophir"],
+
             "pricing" : 12,
 
             "goes_with": [
@@ -447,6 +483,8 @@
 
         {
             "name": "VL 92 GIN",
+            "alt_names": ["vl92"],
+
             "pricing" : 14,
 
             "goes_with": [
@@ -536,6 +574,8 @@
 
         {
             "name": "LOOPUYT",
+            "alt_names": ["loopuit"],
+
             "pricing" : 18,
 
             "goes_with": [
@@ -638,6 +678,123 @@
                 {
                     "tonic": "Fever-Tree Indian Tonic",
                     "extra": [ "Lime" ]
+                }
+            ]
+        },
+
+
+        {
+            "name": "Sir Edmond Gin",
+            "alt_names": ["sir edmonds"],
+
+            "pricing" : 19,
+
+            "goes_with": [
+                {
+                    "tonic": "Fentimans Tonic",
+                    "extra": [ "Cardamom", "Lemon" ]
+                }
+            ]
+        },
+
+
+        {
+            "name": "MARULLA GIN",
+            "alt_names": ["marula"],
+
+            "pricing" : 15,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Grapefruit" ]
+                }
+            ]
+        },
+
+        {
+            "name": "CAORUNN GIN",
+            "pricing" : 16,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Apple" ]
+                }
+            ]
+        },
+
+        {
+            "name": "GASTROGIN - GIN & JONNIE",
+            "alt_names": ["gin jonnie", "gin en jonnie"],
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Thyme" ]
+                }
+            ]
+        },
+
+        {
+            "name": "WILDEREN DOUBLE YOU",
+            "pricing" : 18,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Licorice stick (bite first)" ]
+                }
+            ]
+        },
+
+        {
+            "name": "RYKS",
+            "pricing" : "?",
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": [ "Lime", "Grapefruit" ]
+                }
+            ]
+        },
+
+        {
+            "name": "Wint & Lila",
+            "pricing" : 17,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Orange" ]
+                }
+            ]
+        },
+
+        {
+            "name": "BUSS NO. 509 (& fruity flavor)",
+            "alt_names": ["buss 509"],
+
+            "pricing" : 17,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Raspberry", "Grapefruit", "Lime" ]
+                }
+            ]
+        },
+
+        {
+            "name": "HANAMI",
+            "pricing" : 13,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Strawberries" ]
                 }
             ]
         }

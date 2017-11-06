@@ -1,7 +1,7 @@
 {
   "name": "gin-and-tonic-recipes",
   "description": "List of Gin & Tonics that taste pretty ok",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tessmore <fabientesselaar@gmail.com>",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",

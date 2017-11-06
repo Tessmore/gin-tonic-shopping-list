@@ -73,6 +73,11 @@ input {
     min-width: 230px;
 }
 
+small {
+    color: #aaa;
+    font-size: 11px;
+}
+
 
 .header {
     border-bottom: 1px dotted #ddd;
