@@ -17,19 +17,10 @@ Suggestions for both gin, tonic, and extra garnish are welcome :)
 If you want to run it yourself, it is a Vue.js project generated with `vue init webpack-simple`. So you can run it locally with:
 
 ``` bash
-// clone this project and ->
-
 npm install
 
 npm run dev
 ```
 
 If you feel anything is missing, you can open an issue with a suggestion or a link. Pull requests are welcome.
-
-
-## TODO-list
-
-* Include info about the glass? (balloon or long glass)
-* Actual recipe info (HOW TO MAKE SUPER THIN SLICES OF ...)
-* Some kind of biased recommendation rating
 

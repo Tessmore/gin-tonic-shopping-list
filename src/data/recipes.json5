@@ -39,11 +39,27 @@
             "goes_with": [
                 {
                     "tonic": "Fever-Tree Indian Tonic",
-                    "extra": ["Orange Slice", "Cloves" ]
+                    "extra": ["Orange slice", "Cloves" ]
+                },
+
+                {
+                    "tonic":  "East Imperial Tonic",
+                    "extra": ["Orange bitters", "Orange wedge"]
                 }
             ]
         },
 
+        {
+            "name": "BLOOM GIN",
+            "pricing": 10,
+
+            "goes_with": [
+                {
+                    "tonic":  "East Imperial Tonic",
+                    "extra": ["Strawberries", "Basil leafs"]
+                }
+            ]
+        },
 
         {
             "name": "BROOKLYN",
@@ -65,6 +81,11 @@
                 {
                     "tonic": "Fever-Tree Indian Tonic",
                     "extra": ["Orange", "Cloves"]
+                },
+
+                {
+                    "tonic": "East Imperial Tonic",
+                    "extra": ["Lime", "Grapefruit", "Lemon zest"]
                 }
             ]
         },
@@ -323,6 +344,11 @@
                 {
                     "tonic": "Fever-Tree Elderflower Tonic",
                     "extra": [ "Blackberries" ]
+                },
+
+                {
+                    "tonic": "East Imperial Tonic",
+                    "extra": [ "Blackberries", "lemongrass" ]
                 }
             ]
         },
@@ -335,6 +361,11 @@
                 {
                     "tonic": "Fever-Tree Indian Tonic",
                     "extra": [ "Passion Fruit" ]
+                },
+
+                {
+                    "tonic": "Fever-Tree Elderflower Tonic",
+                    "extra": [ "Peach", "Raspberry" ]
                 }
             ]
         },
@@ -383,6 +414,11 @@
                 {
                     "tonic": "Thomas Henry Tonic",
                     "extra": [ "Blueberries" ]
+                },
+
+                {
+                    "tonic": "East Imperial Tonic",
+                    "extra": [ "Lemon zest"]
                 }
             ]
         },
@@ -395,7 +431,7 @@
             "goes_with": [
                 {
                     "tonic": "Fentimans Tonic",
-                    "extra": [ "" ] // TODO
+                    "extra": [ "Lime zest", "Lemon zest", "Juniper berries" ]
                 }
             ]
         },
@@ -543,8 +579,14 @@
             "goes_with": [
                 {
                     "tonic": "Fever-Tree Elderflower Tonic",
-                    "extra": [ "" ]  // TODO
-                }
+                    "extra": [ "" ]
+                },
+
+                {
+                    "tonic": "East Imperial Tonic",
+                    "extra": [ "Rosemary", "Orange zest" ]
+                },
+
             ]
         },
 
@@ -733,6 +775,11 @@
                 {
                     "tonic": "Fever-Tree Elderflower Tonic",
                     "extra": [ "Thyme" ]
+                },
+
+                {
+                    "tonic": "6 O’clock tonic",
+                    "extra": [ "Rosemary", "Lemon peel", "Peppercorns" ]
                 }
             ]
         },
@@ -795,6 +842,19 @@
                 {
                     "tonic": "Fever-Tree Elderflower Tonic",
                     "extra": [ "Strawberries" ]
+                }
+            ]
+        },
+
+        {
+            "name": "6 O'clock gin",
+            "alt_names": ["six o'clock"],
+            "pricing" : 8.5,
+
+            "goes_with": [
+                {
+                    "tonic": "6 O'clock tonic",
+                    "extra": [ "Lime" ]
                 }
             ]
         }
