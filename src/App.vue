@@ -7,34 +7,34 @@
           </h1>
 
           <div class="full search">
-              <div class="left">
-                  <input type="text" v-model="filter" placeholder="Filter...">
-              </div>
+              <input type="text" v-model="filter" placeholder="Filter..." class="full">
           </div>
         </div>
 
         <div class="full">
             <div v-for="item in filtered" class="item">
-                <h3 class="full">
-                  <span class="left">{{ item.name }}</span>
+                <!-- <div class="left image">
+                    <img v-if="item.img" :src="'/src/assets/' + item.img">
+                    <img v-else :src="'/src/assets/Untitled.png'">
+                </div> -->
 
-                  <span class="right price">{{ item.price_tag }}</span>
-                </h3>
+                <div class="left description">
+                    <h3 class="full">
+                      <span class="left">{{ item.name }}</span>
 
-                <ul class="full item-list">
-                    <li v-for="obj in item.goes_with">
-                      <strong>{{ obj.tonic }}</strong>
+                      <span class="right price">{{ item.price_tag }}</span>
+                    </h3>
 
-                      <span v-for="g in obj.extra">{{ g }}</span>
-                    </li>
-                </ul>
+                    <ul class="full item-list">
+                        <li v-for="obj in item.goes_with">
+                          <strong>{{ obj.tonic }}</strong>
+
+                          <span v-for="g in obj.extra">{{ g }}</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-<!--         <div class="full">
-            <small>€€ is an estimate of the Gin (bottles between €22,00 - 45,00), Tonic (€2,-) and any extra's.</small>
-        </div>
- -->
     </div>
 
     <div style="clear:both;"></div>
@@ -97,7 +97,7 @@ export default {
                 item.label = normalize(item.name);
 
                 // Include spelling mistakes / alternative spellings
-                if (item.alt_names) {
+                if (item.alt_names && Array.isArray(item.alt_names)) {
                     item.label += " " + item.alt_names.map(s => normalize(s)).join(" ");
                 }
 
@@ -108,7 +108,7 @@ export default {
 
     computed: {
         filtered: function() {
-            var searchStr = normalize(this.filter||"");
+            var searchStr = normalize(this.filter || "");
 
             var items = this.items.filter((item) => {
                 if (!item.name) {

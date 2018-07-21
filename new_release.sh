@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NODE_ENV=production ./node_modules/webpack/bin/webpack.js --progress --hide-modules
+yarn run build
 
 cp ./src/assets/style.css ./docs/style.css
 cp ./dist/build.js ./docs/build.js

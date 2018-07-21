@@ -29,6 +29,17 @@
             ]
         },
 
+        {
+            "name": "ALIDOR GIN",
+            "pricing": 16,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever-Tree Indian Tonic",
+                    "extra": ["Orange slice", "Cloves" ]
+                }
+            ]
+        },
 
         {
             "name": "BOBBY'S DUTCH GIN",
@@ -45,18 +56,6 @@
                 {
                     "tonic":  "East Imperial Tonic",
                     "extra": ["Orange bitters", "Orange wedge"]
-                }
-            ]
-        },
-
-        {
-            "name": "BLOOM GIN",
-            "pricing": 10,
-
-            "goes_with": [
-                {
-                    "tonic":  "East Imperial Tonic",
-                    "extra": ["Strawberries", "Basil leafs"]
                 }
             ]
         },
@@ -120,9 +119,12 @@
 
             "goes_with": [
                 {
-
                     "tonic": "Fever-Tree Indian Tonic",
                     "extra" : [ "Ginger" ]
+                },
+                {
+                    "tonic": "Fever Tree Indian Tonic",
+                    "extra": ["Green Apple", "Lavender"]
                 }
             ]
         },
@@ -141,6 +143,8 @@
 
         {
             "name": "FIFTY POUNDS",
+            "alt_names": ["50 pounds"],
+
             "pricing": 18,
 
             "goes_with": [
@@ -151,7 +155,7 @@
 
                 {
                     "tonic": "Fentimans Tonic",
-                    "extra": [ "" ]  // TODO
+                    "extra": [ "" ]
                 }
             ]
         },
@@ -163,7 +167,7 @@
             "goes_with": [
                 {
                     "tonic": "Fever-Tree Elderflower Tonic",
-                    "extra": [],  //  TODO "Edible Flowers (?)"
+                    "extra": [],
                 }
             ]
         },
@@ -229,6 +233,20 @@
         },
 
         {
+            "name": "NORDES ATLANTIC GIN",
+            "alt_names": ["nordés"],
+
+            "pricing" : 13,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever Tree Elderflower Tonic",
+                    "extra": [ "Green apple", "Mint" ]
+                }
+            ]
+        },
+
+        {
             "name": "HENDRICKS'S",
             "alt_names": ["hendriks"],
 
@@ -269,6 +287,7 @@
         {
             "name": "JINZU GIN",
             "pricing" : 20,
+            "img": "jinzu_min.jpg",
 
             "goes_with": [
                 {
@@ -366,6 +385,11 @@
                 {
                     "tonic": "Fever-Tree Elderflower Tonic",
                     "extra": [ "Peach", "Raspberry" ]
+                },
+
+                {
+                    "tonic": "1724 Tonic",
+                    "extra": ["Lemon zest", "Raspberries"]
                 }
             ]
         },
@@ -373,11 +397,24 @@
         {
             "name": "NAPUE RYE GIN",
             "pricing" : 16,
+            "img": "napue_min.jpg",
 
             "goes_with": [
                 {
                     "tonic": "Fever-Tree Indian Tonic",
                     "extra": [ "Cranberries", "Rosemary" ]
+                }
+            ]
+        },
+
+        {
+            "name": "BROCKMANS GIN",
+            "pricing" : 19,
+
+            "goes_with": [
+                {
+                    "tonic": "Fever Tree Mediterranean Tonic",
+                    "extra": [ "Raspberries", "Blueberries" ]
                 }
             ]
         },
@@ -442,8 +479,13 @@
 
             "goes_with": [
                 {
+                    "tonic": "1724 Tonic",
+                    "extra": [ "Lime", "Juniper berry" ]
+                },
+
+                {
                     "tonic": "Fentimans Tonic",
-                    "extra": [ "" ] // TODO
+                    "extra": [ "Koriander" ]
                 }
             ]
         },
@@ -477,11 +519,12 @@
         {
             "name": "JUNIPERO",
             "pricing" : 18,
+            "img": "junipero_min.jpg",
 
             "goes_with": [
                 {
                     "tonic": "Fever-Tree Indian Tonic",
-                    "extra": [ "" ] // TODO
+                    "extra": [ "Lime wedge" ]
                 }
             ]
         },
@@ -501,6 +544,7 @@
         {
             "name": "OPIHR",
             "alt_names": ["ophir"],
+            "img": "opihr_min.jpg",
 
             "pricing" : 12,
 
@@ -539,6 +583,11 @@
                 {
                     "tonic": "Fever-Tree Elderflower Tonic",
                     "extra": [ "Lemon" ]
+                },
+
+                {
+                    "tonic": "Fever Tree Mediterranean Tonic",
+                    "extra": [ "Cucumber", "Black pepper" ]
                 }
             ]
         },
@@ -555,7 +604,12 @@
 
                 {
                     "tonic": "6 o'clock Tonic",
-                    "extra": [ "" ]  // TODO
+                    "extra": [ "Strawberry", "Mint" ]
+                },
+
+                {
+                    "tonic":  "East Imperial Tonic",
+                    "extra": ["Strawberries", "Basil leafs"]
                 }
             ]
         },
@@ -592,12 +646,18 @@
 
         {
             "name": "Vørding's Gin",
+            "alt_names": ["vordings"],
             "pricing" : 19,
 
             "goes_with": [
                 {
+                    "tonic": "Schweppes P.M. Original Tonic",
+                    "extra": ["Orange zest", "Cardamom" ]
+                },
+
+                {
                     "tonic": "Fever-Tree Elderflower Tonic",
-                    "extra": [ "" ]  // TODO
+                    "extra": [ "" ]
                 }
             ]
         },
@@ -635,7 +695,7 @@
             "goes_with": [
                 {
                     "tonic": "Fever-Tree Elderflower Tonic",
-                    "extra": [ "" ]  // TODO
+                    "extra": [ "Grapefruit zest", "Lavender" ]
                 }
             ]
         },
@@ -684,6 +744,18 @@
                 {
                     "tonic": "6 o'clock Tonic",
                     "extra": [ "" ]  // TODO
+                }
+            ]
+        },
+
+        {
+            "name": "GERANIUM GIN",
+            "pricing" : 12,
+
+            "goes_with": [
+                {
+                    "tonic": "Thomas Henry Tonic",
+                    "extra": [ "Juniper berries", "Hibiscus leaf" ]
                 }
             ]
         },
@@ -743,6 +815,7 @@
         {
             "name": "MARULLA GIN",
             "alt_names": ["marula"],
+            "img": "marula_min.jpg",
 
             "pricing" : 15,
 
