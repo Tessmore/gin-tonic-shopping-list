@@ -1,5 +1,6 @@
-var path = require('path')
-var webpack = require('webpack')
+const path = require('path')
+const webpack = require('webpack')
+const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
   entry: './src/main.js',
@@ -51,7 +52,10 @@ module.exports = {
   },
   performance: {
     hints: false
-  }
+  },
+  plugins: [
+    new VueLoaderPlugin()
+  ]
 }
 
 if (process.env.NODE_ENV === 'production') {

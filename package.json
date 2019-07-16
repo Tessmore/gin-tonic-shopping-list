@@ -1,7 +1,7 @@
 {
   "name": "gin-and-tonic-recipes",
   "description": "List of Gin & Tonics that taste pretty ok",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Tessmore <fabientesselaar@gmail.com>",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
@@ -9,20 +9,20 @@
   },
   "dependencies": {
     "lodash.deburr": "^4.1.0",
-    "vue": "^2.4.4"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "cross-env": "^5.0.5",
-    "css-loader": "^1.0.0",
-    "file-loader": "^1.1.4",
-    "json5-loader": "^1.0.1",
-    "vue-loader": "^14.2.2",
-    "vue-template-compiler": "^2.4.4",
-    "webpack": "^4.16.1",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.4"
+    "@babel/core": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "json5-loader": "^3.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   }
 }
